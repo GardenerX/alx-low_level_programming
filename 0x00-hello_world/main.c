@@ -9,3 +9,14 @@ int main(void)
 {
     return (0);
 }
+
+# 942 "/usr/include/stdio.h" 3 4
+
+# 2 "1-main.c" 2
+
+
+# 3 "2-main.c"
+int main(void)
+{
+ return (0);
+}
