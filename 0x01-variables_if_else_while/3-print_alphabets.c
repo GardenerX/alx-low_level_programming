@@ -11,15 +11,22 @@
 
 int main(void)
 {
-int x = 'A';
-while (x <= 'Z')
-{
-putchar(tolower(x));
+char x;
+char b;
+
+x = 'a';
+b = 'A';
+while
+(x <= 'z') {
+putchar(x);
 x++;
 }
-{
-putchar(toupper(x));
+while
+(b <= 'Z') {
+putchar(b);
+b++;
 }
 putchar('\n');
+
 return (0);
 }
