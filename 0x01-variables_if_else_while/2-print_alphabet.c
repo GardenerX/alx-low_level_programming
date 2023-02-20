@@ -17,6 +17,6 @@ while (x <= 'Z')
 putchar(tolower(x));
 x++;
 }
-putchar(' ');
+putchar('\n');
 return (0);
 }
