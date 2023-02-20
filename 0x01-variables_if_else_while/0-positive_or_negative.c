@@ -30,7 +30,6 @@ if
 	printf("zero\n");
 	}
 	else
-		(n < 0);
 	{
 		printf("is negative\n");
 	}
