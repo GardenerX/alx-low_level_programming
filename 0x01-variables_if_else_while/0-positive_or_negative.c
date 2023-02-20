@@ -1,13 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
 
 /**
  * main - ENTRY POINT
- * A program that print whether the random number
+ *
+ * main : A program that print whether the random number
  * stored in the variable n is positive or negative.
- * Return: Always 0 (success)
+ *
+ * Return : 0 (success)
  */
 
 /* betty style doc for function main goes there */
@@ -25,13 +26,13 @@ if
 	{
 	    printf("is positive\n");
 	}
-	else if (n == 0)
+	else if (n < 0)
 	{
-	printf("zero\n");
+	printf("is negative\n");
 	}
-	else
+else
 	{
-		printf("is negative\n");
+		printf("is zero\n");
 	}
 		return (0);
 }
