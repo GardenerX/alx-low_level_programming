@@ -3,6 +3,13 @@
 #include <stdio.h>
 /* more headers goes there */
 
+/**
+ * main - ENTRY POINT
+ * A program that print whether the random number
+ * stored in the variable n is positive or negative.
+ * Return: Always 0 (success)
+ */
+
 /* betty style doc for function main goes there */
 int main(void)
 {
@@ -11,21 +18,21 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-printf("%d\n", n);
+printf("%d", n);
 
-	if 
-		(n > 0);
+if
+	(n > 0)
 	{
-	    printf("is positive");
+	    printf("is positive\n");
 	}
-	if (n == 0)
+	else if (n == 0)
 	{
-	printf("zero");
+	printf("zero\n");
 	}
-	else if 
+	else
 		(n < 0);
 	{
-		printf("is negative");
+		printf("is negative\n");
 	}
 		return (0);
 }
