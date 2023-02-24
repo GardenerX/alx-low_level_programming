@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <locale.h>
 
 /**
  * main - Entry Point
@@ -14,16 +13,16 @@ int main(void)
 int e;
 e = 0;
 while
-(e < 9)
+(e < 10)
 {
 putchar(e + '0');
 e++;
-putchar(',');
-}
 if
-(9 < 10)
+(e <= 9)
 {
-putchar('9');
+putchar(',');
+putchar(' ');
+}
 }
 putchar('\n');
 
