@@ -4,19 +4,21 @@
 /**
  * main - Entry Point
  *
- * Description: print 0-9
+ * main : print 0-9
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (success)
  */
 
 int main(void)
 {
-int n;
-int j;
-
-for (n = 0, j = 10; n < j; n++)
+int n = 0;
+n = 0;
+while (n < 10)
+{
 putchar(n);
-
+n++;
+}
 putchar('\n');
+
 return (0);
 }
