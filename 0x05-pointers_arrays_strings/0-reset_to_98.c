@@ -7,15 +7,16 @@
  * 'n' -is an int variable
  * @n:input
  * @n:output
- * Return: n
+ * Return: i (success)
  */
 
 void reset_to_98(int *n)
 {
-int i;
+int i = 402;
 n = &i;
-*n = 402;
+
 printf("%d\n", i);
 reset_to_98(&i);
 printf("%d\n", *n);
+
 }
