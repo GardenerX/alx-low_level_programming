@@ -14,8 +14,8 @@ void reset_to_98(int *n)
 {
 int i;
 n = &i;
-
-printf("n = %d\n", *n);
+*n = 402;
+printf("%d\n", i);
 reset_to_98(&i);
-printf("n = %d\n", *n);
+printf("%d\n", *n);
 }
