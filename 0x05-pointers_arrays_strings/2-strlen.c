@@ -8,9 +8,9 @@
  */
 int _strlen(char *s)
 {
-int str;
-char length;
-s = &length;
-*s = sizeof(str);
+char *str = "My first strlen!";
+  s = &*str;
+
+printf("%ld\n", strlen(s));
 return (0);
 }
