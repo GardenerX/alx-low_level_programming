@@ -12,7 +12,7 @@
 
 void reset_to_98(int *n)
 {
-int i = 402;
+int i;
 n = &i;
 
 printf("n = %d\n", *n);
