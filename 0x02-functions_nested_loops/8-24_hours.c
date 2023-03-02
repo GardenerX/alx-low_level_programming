@@ -11,7 +11,7 @@ int n, m, o, p;
 
 for (n = 0; n <= 2; n++)
 {
-for (n = 0; m <= 3; m++)
+for (m = 0; m <= 3; m++)
 {
 for (o = 0; o <= 5; o++)
 {
