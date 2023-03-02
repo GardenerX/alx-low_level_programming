@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 /**
- * print_to_98
+ * print_to_98 - printing from 0 to 98
  * @n:input
+ *
  *
  */
 extern void print_to_98(int n);
@@ -19,4 +20,4 @@ _putchar(' ');
 }
 }
 _putchar('\n');
-
+}
