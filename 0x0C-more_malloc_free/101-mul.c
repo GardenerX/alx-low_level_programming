@@ -11,10 +11,10 @@
  */
 int main(int argc, char *argv[])
 {
-long int a = 0, b = 0, n;
+long int num1 = 0, num2 = 0, n;
 char *m = "Error";
 (void)n;
-if ((argc < 3 || argc > 3) && (a < 48 || a > 57) && (b < 48 || b > 57))
+if ((argc < 3 || argc > 3) && (num1 < 48 || num1 > 57) && (num2 < 48 || num2 > 57))
 {
 for (n = 0; m[n]; n++)
 {
@@ -24,22 +24,22 @@ putchar('\n');
 exit(98);
 }
 else
-a = atoi(argv[1]);
-b = atoi(argv[2]);
-mul(a, b);
+num1 = atoi(argv[1]);
+num2 = atoi(argv[2]);
+mul(num1, num2);
 return (0);
 }
 
 /**
  * mul - multiply two numbers
- * @a:input 1st digit
- * @b:input 2nd digit
+ * @num1:input 1st digit
+ * @num2:input 2nd digit
  * Return: s, the result
  */
-int mul(int a, int b)
+int mul(int num1, int num2)
 {
 long int s = 0;
-s = a *b;
+s = num1 *num2;
 print_digit(s);
 putchar('\n');
 return (s);
