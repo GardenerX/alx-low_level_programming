@@ -11,7 +11,7 @@
  */
 int main(int argc, char *argv[])
 {
-int a = 0, b = 0, n;
+long int a = 0, b = 0, n;
 char *m = "Error";
 (void)n;
 if ((argc < 3 || argc > 3) && (a < 48 || a > 57) && (b < 48 || b > 57))
@@ -38,7 +38,7 @@ return (0);
  */
 int mul(int a, int b)
 {
-int s = 0;
+long int s = 0;
 s = a *b;
 print_digit(s);
 putchar('\n');
@@ -50,7 +50,7 @@ return (s);
  * @v: input digit
  * Return: Always 0 (success)
  */
-int print_digit(int v)
+int print_digit(long int v)
 {
 if (v <= 9)
 {
