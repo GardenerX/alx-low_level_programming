@@ -14,7 +14,8 @@ int main(int argc, char *argv[])
 long int num1 = 0, num2 = 0, n;
 char *m = "Error";
 (void)n;
-if ((argc < 3 || argc > 3) && (num1 < 48 || num1 > 57) && (num2 < 48 || num2 > 57))
+if ((argc < 3 || argc > 3) && (num1 < 48 || num1 > 57)
+&& (num2 < 48 || num2 > 57))
 {
 for (n = 0; m[n]; n++)
 {
