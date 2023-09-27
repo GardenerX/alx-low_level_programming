@@ -12,12 +12,9 @@
 int pop_listint(listint_t **head)
 {
 listint_t *on;
-size_t b;
-on = malloc(sizeof(listint_t));
-if (on == NULL)
-{
+int b;
+if (!head || !*head)
 return (0);
-}
 b = (*head)->n;
 on = (*head)->next;
 free(*head);
